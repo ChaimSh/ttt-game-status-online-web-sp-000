@@ -46,7 +46,7 @@ def draw?(board)
 #board.none? { |winner|
 #  WIN_COMBINATIONS || " "
 #}
-if board == WIN_COMBINATIONS || " "
+if board == WIN_COMBINATIONS || board == " "
   return false
 elsif board != WIN_COMBINATIONS
   return true
