@@ -46,4 +46,5 @@ def draw?(board)
 board.none? { |winner|
   WIN_COMBINATIONS || " "
 }
+return true
 end
