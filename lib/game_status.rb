@@ -44,6 +44,6 @@ end
 
 def draw?(board)
 board.any? { |winner|
-  WIN_COMBINATIONS && " "
+  WIN_COMBINATIONS || " "
 }
 end
