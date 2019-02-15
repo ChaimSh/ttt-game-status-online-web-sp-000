@@ -43,7 +43,7 @@ end
 end
 
 def draw?(board)
-none? do |winner|
+board.any? { |winner|
   WIN_COMBINATIONS && " "
-end
+}
 end
