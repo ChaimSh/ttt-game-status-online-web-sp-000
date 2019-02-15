@@ -50,6 +50,7 @@ if board == WIN_COMBINATIONS || board == " "
   false
 #elsif board == WIN_COMBINATIONS || board == " "
 #  false
-
+if board == full?(board)
+  true
 end
 end
