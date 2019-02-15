@@ -77,7 +77,7 @@ if won?(board) == "X"
   "X"
 elsif won?(board) == "O"
   "O"
-else 
-  nil  
+else
+  nil
 end
 end
