@@ -48,7 +48,7 @@ def draw?(board)
 #}
 if board == WIN_COMBINATIONS || board == " "
   return false
-else 
+else
   return true
 end
 end
