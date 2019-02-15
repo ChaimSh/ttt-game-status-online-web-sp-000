@@ -50,3 +50,4 @@ if board == WIN_COMBINATIONS || " "
   return false
 else true
 end
+end
