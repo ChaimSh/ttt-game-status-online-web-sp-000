@@ -48,7 +48,8 @@ def draw?(board)
 #}
 if board != WIN_COMBINATIONS || board == " "
   true
-
+elsif board == WIN_COMBINATIONS || board == " "
+  false
 
 end
 end
