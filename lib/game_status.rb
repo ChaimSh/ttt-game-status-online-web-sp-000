@@ -46,10 +46,10 @@ def draw?(board)
 #board.none? { |winner|
 #  WIN_COMBINATIONS || " "
 #}
-if board != WIN_COMBINATIONS || board != " "
-  true
-elsif board == WIN_COMBINATIONS || board == " "
+if board == WIN_COMBINATIONS || board == " "
   false
+#elsif board == WIN_COMBINATIONS || board == " "
+#  false
 
 end
 end
