@@ -43,19 +43,6 @@ end
 end
 
 def draw?(board)
-#board.none? { |winner|
-#  WIN_COMBINATIONS || " "
-#}
-=begin
-if board == WIN_COMBINATIONS || board == " "
-  false
-#elsif board == WIN_COMBINATIONS || board == " "
-#  false
-elsif
-   board == full?(board)
-  true
-end
-=end
 if !won?(board) && full?(board)
   return true
 else
