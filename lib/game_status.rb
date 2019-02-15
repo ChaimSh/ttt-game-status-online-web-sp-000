@@ -43,8 +43,10 @@ end
 end
 
 def draw?(board)
-board.none? { |winner|
-  WIN_COMBINATIONS || " "
-}
-
+#board.none? { |winner|
+#  WIN_COMBINATIONS || " "
+#}
+if board == WIN_COMBINATIONS || " "
+  return false
+else true
 end
