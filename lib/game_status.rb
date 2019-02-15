@@ -59,12 +59,16 @@ def over?(board)
   end
 end
 
-def winner(board)
-if won?(board) == "X"
-  "X"
-elsif won?(board) == "O"
-  "O"
-else
-  nil
-end
+
+def winner (board)
+  index = won?(board)
+  if index == false
+    return nil
+  else
+    if board[index[0]] == "X"
+      return "X"
+    else
+      return "O"
+    end
+  end
 end
